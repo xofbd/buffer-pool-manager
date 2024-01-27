@@ -12,4 +12,4 @@ This is an implementation of a buffer pool manager for learning purposes
 
 ## Serving the Javascript app
 
-```cd dist && python -m SimpleHTTPServer ```
+```python3 -m http.server --directory web/dist/```
