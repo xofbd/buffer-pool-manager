@@ -4,7 +4,7 @@ This is an implementation of a buffer pool manager for learning purposes
 
 ## How to compile
 
-```make build-server```
+```make dist/bpm-server```
 
 ## How to run the server
 
@@ -13,3 +13,5 @@ This is an implementation of a buffer pool manager for learning purposes
 ## Serving the Javascript app
 
 ```python3 -m http.server --directory web/dist/```
+
+Alternatively, you can compile, run the buffer pool server, and launch the JS app with just `make all`.
